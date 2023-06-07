@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded',function(){
     mensagem = document.querySelectorAll('.msg-usuario')
     cabecalho=document.querySelector('.cabecalho')
     cabecalho.style.background = '#F22B0C'
+    contato=document.querySelector('.contato')
+    contato.style.background= '#F22B0C'
     bolhausu=document.querySelectorAll('.bolha-usuario')
     for(z=0;z<=bolhausu.length - 1;z++){
         bolhausu[z].style.backgroundColor = '#E66000'
